@@ -5,6 +5,10 @@ import AboutUs from './components/AboutUs'
 import './App.css'
 import Svg from './components/Svg'
 import Services from './components/Services.jsx'
+import Project from './components/Project.jsx'
+import Skills from './components/Skills.jsx'
+import Testimonial from './components/Testimonial.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,7 +22,10 @@ function App() {
     <Hero />
     <AboutUs />
     <Services />
-    
+    <Project/>
+    <Skills/>
+    <Testimonial/>
+    <Footer/>
     </div>
       
     </>

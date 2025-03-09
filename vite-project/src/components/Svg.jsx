@@ -26,5 +26,6 @@ const Svg= (props) => (
       transform="rotate(-180 720 300)"
     />
   </svg>
+  
 )
 export default Svg
